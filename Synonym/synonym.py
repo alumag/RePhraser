@@ -10,7 +10,7 @@ from collections import Counter
 
 
 def main():
-    print(synonym('phone').getSynonym())
+    print(synonym('shine').getSynonym())
     pass
 
 
@@ -22,6 +22,7 @@ class synonym(object):
         return self.choseSynonym(wn.synsets(self._word))
 
     def choseSynonym(self, ss):
+        #print(ss)
         count = []
         for s in ss:
             for word in s.lemma_names():
@@ -37,5 +38,5 @@ class synonym(object):
         self._word = word
         return None
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
