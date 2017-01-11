@@ -29,6 +29,7 @@ def change_text(originalFile, newFile):
         for sentence in sentences:
             newFile.write(change_sentence(sentence))
 
-s = "Lummie is love very much apples"
+s = "Bring me all your money, fast."
 print s
 print change_sentence(s)
+
