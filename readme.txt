@@ -13,7 +13,12 @@ All our test-files will be here. Use them to QA our codes :)
 Will contain all the codes and data about our first sprint.
   Synonym.py:
   Synonym class in python. Knows how to take a word (without its role) and give you a nice synonym to :)
+  
+  ParseSentence.py:
+  This script parse texts, select words to change and calls to synonym.py to change them
   todo list: QA and cache files
+  
+  
   
   
       XOXO
