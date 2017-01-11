@@ -28,6 +28,8 @@ class synonym(object):
             for word in s.lemma_names():
                 if word != self._word:
                     count.append(word)
+        if len(count) == 0:
+            return self._word
         return Counter(count).most_common(1)[0][0]
 
     def __init__(self, word):

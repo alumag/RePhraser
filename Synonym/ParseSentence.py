@@ -24,12 +24,19 @@ def change_sentence(sentence):
 def change_text(originalFile, newFile):
     with open(originalFile, 'r') as f:
         text = f.read()
+        print text
         sentences = re.split(r'\.\?!', text)
-        open(newFile, 'w')
+        new = open(newFile, 'w')
+        new_sentences = []
         for sentence in sentences:
-            newFile.write(change_sentence(sentence))
+            new_sentences.append(change_sentence(sentence))
+        new.writelines(new_sentences)
+    new.close()
+    f.close()
 
 s = "Bring me all your money, fast."
 print s
 print change_sentence(s)
+
+change_text("../Texts/crisis.txt", "../Texts/new_crisis.txt")
 
