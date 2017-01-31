@@ -35,20 +35,18 @@ def change_text(originalFile, newFile):
     new.close()
     f.close()
 
-def change_text(text="Hey i just met you"):
-    print text
-    sentences = re.split(r'\.\?!', text)
-    new = ""
-    for sentence in sentences:
-        new += change_sentence(sentence)
-    print new
-    return new
+# def change_text(text="Hey i just met you"):
+#     print text
+#     sentences = re.split(r'\.\?!', text)
+#     new = ""
+#     for sentence in sentences:
+#         new += change_sentence(sentence)
+#     print new
+#     return new
 
-change_text(sys.argv[1])
 
-# s = "Bring me all your money, fast."
-# print s
-# print change_sentence(s)
-#
-# change_text("../Texts/crisis.txt", "../Texts/new_crisis.txt")
+s = "Bring me all your money, fast."
+print s
+print change_sentence(s)
+change_text("../Texts/crisis.txt", "../Texts/new_crisis.txt")
 
