@@ -45,8 +45,8 @@ def change_text(originalFile, newFile):
 #     return new
 
 
-s = "Bring me all your money, fast."
+s = raw_input()
 print s
 print change_sentence(s)
-change_text("../Texts/crisis.txt", "../Texts/new_crisis.txt")
+#change_text("../Texts/crisis.txt", "../Texts/new_crisis.txt")
 

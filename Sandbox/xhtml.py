@@ -1,15 +1,17 @@
-import HTMLParser
+import md5
+import random
+import string
 
-class MyHTMLParser(HTMLParser):
-    def handle_starttag(self, tag, attrs):
-        print("Encountered a start tag:", tag)
+output = "8e16941e6d51be408459221a1c905eda"
+i = "PoliC3"
+j = ""
+str = ""
 
-    def handle_endtag(self, tag):
-        print("Encountered an end tag :", tag)
-
-    def handle_data(self, data):
-        print("Encountered some data  :", data)
-
-parser = MyHTMLParser()
-parser.feed('<html><head><title>Test</title></head>'
-            '<body><h1>Parse me!</h1></body></html>')
+while True:
+    str = i + "allwa7" + j
+    if (md5.new(str).hexdigest() == output):
+        print(j)
+        break
+    if(len(j) > 10):
+        j = random.choice(string.letters)
+    j = j + random.choice(string.letters+string.digits)
