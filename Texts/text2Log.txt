@@ -1,0 +1,5 @@
+../Texts/text2Log
+this TF-IDF Score: 0.0
+is TF-IDF Score: 0.0
+example TF-IDF Score: 0.0
+another TF-IDF Score: 0.0

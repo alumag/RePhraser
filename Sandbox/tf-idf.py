@@ -11,7 +11,7 @@ import time
 
 
 def main():
-    filenames = ["text1.txt", "text2.txt", "text3.txt"] # the file-names: uses them as corpus
+    filenames = ["../Texts/text1.txt", "../Texts/text2.txt", "../Texts/text3.txt"] # the file-names: uses them as corpus
     corpus = makeCorpus(filenames)  # read the files and place them in a list
 
     for f in filenames:

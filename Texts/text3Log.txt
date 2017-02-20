@@ -1,0 +1,14 @@
+../Texts/text3Log
+and TF-IDF Score: 0.0
+her TF-IDF Score: 0.0
+for TF-IDF Score: 0.0
+is TF-IDF Score: 0.0
+natali TF-IDF Score: 0.0
+leaving TF-IDF Score: 0.0
+to TF-IDF Score: 0.0
+goes TF-IDF Score: 0.0
+each TF-IDF Score: 0.0
+the TF-IDF Score: 0.0
+beach TF-IDF Score: 0.0
+day TF-IDF Score: 0.0
+name TF-IDF Score: 0.0
