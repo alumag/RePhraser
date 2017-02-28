@@ -32,10 +32,8 @@ def change_sentence(sentence):
     for cur in nltk.tag.pos_tag(text):
         if (cur[1] == "RB" or cur[1] == "VBP" or cur[1] == "VB" or cur[1] == "CC" or cur[1] == "PRT"):
             synonym1 = synonym.synonym(cur[0]).getSynonym()
-            print synonym1
             if '_' in synonym1:
                 synonym1 = synonym1.replace('_', ' ')
-            print ">> ",synonym1
             sentence.replace(cur[0], synonym1)
             new_sentence += synonym1 + " "
         else:

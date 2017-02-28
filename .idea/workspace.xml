@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34aeb603-0fb9-411b-a2a5-d08970947a6e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Synonym/ParseSentence.py" afterPath="$PROJECT_DIR$/Synonym/ParseSentence.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/sentences.txt" afterPath="$PROJECT_DIR$/Testing/sentences.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/text3.txt" afterPath="$PROJECT_DIR$/Testing/text3.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +44,8 @@
       <file leaf-file-name="ParseSentence.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Synonym/ParseSentence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
               <folding>
                 <element signature="e#21#30#0" expanded="true" />
               </folding>
@@ -803,8 +800,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Synonym/ParseSentence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding>
             <element signature="e#21#30#0" expanded="true" />
           </folding>
