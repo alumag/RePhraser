@@ -11,6 +11,7 @@ namespace Website
 {
     public partial class rephrase : System.Web.UI.Page
     {
+        StringBuilder sb = new StringBuilder();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -18,7 +19,7 @@ namespace Website
 
         protected void btnsave_Click(object sender, EventArgs e)
         {
-            StringBuilder sb = new StringBuilder();
+            sb.Clear();
 
             if (FileUpload1.HasFile)
             {
@@ -38,19 +39,26 @@ namespace Website
 
                     try
                     {
+                        //run_process(@"C:\Users\Viole\Documents\Magshimim\Project\Web\Website\Website\texts\" + FileUpload1.FileName);
                         Process process = new Process();
                         // Configure the process using the StartInfo properties.
-                        process.StartInfo.FileName = @"python";
-                        process.StartInfo.Arguments = @"C:\Users\Viole\Documents\Magshimim\Project\Synonym\ParseSentence.py -f " + @"C:\Users\Viole\Documents\Magshimim\Project\Web\Website\Website\texts\" + FileUpload1.FileName;
-                        //process.StartInfo.WindowStyle = ProcessWindowStyle.Maximized;
+                        process.StartInfo.FileName = @"cmd.exe";
+                        process.StartInfo.WindowStyle = ProcessWindowStyle.Minimized;
                         process.OutputDataReceived += Process_OutputDataReceived;
+                        process.StartInfo.Arguments = ("exit()");
                         process.Start();
+                        //process.StartInfo.Arguments = (@"python C:\Users\Viole\Documents\Magshimim\Project\Synonym\ParseSentence.py -f " + @"C:\Users\Viole\Documents\Magshimim\Project\Web\Website\Website\texts\" + FileUpload1.FileName);
                         process.BeginOutputReadLine();
-                        process.WaitForExit();// Waits here for the process to exit.          
+                        string stderr = process.StandardError.ReadToEnd();
+                        string stdout = process.StandardOutput.ReadToEnd();
+                        sb.AppendFormat("Errors: {0}<br/>", stderr);
+                        sb.AppendFormat("Output: {0}<br/>", stdout);
+                        lblmessage.Text = sb.ToString();
+                        process.WaitForExit(); // Waits here for the process to exit.          
                     }
                     catch (Exception ex)
                     {
-                        sb.Append("<br/> Error <br/>");
+                        sb.Append("<br/> Error: python<br/>");
                         sb.AppendFormat("Unable to run algorthem <br/> {0}", ex.Message);
                         lblmessage.Text = sb.ToString();
                     }
@@ -70,7 +78,29 @@ namespace Website
 
         private void Process_OutputDataReceived(object sender, DataReceivedEventArgs e)
         {
-            lblmessage.Text = e.Data.ToString();
+            sb.Append(e.Data.ToString());
+            lblmessage.Text = sb.ToString();
+        }
+
+        private void run_process(string file)
+        {
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            startInfo.UseShellExecute = false; //required to redirect standart input/output
+
+            // redirects on your choice
+            startInfo.RedirectStandardOutput = true;
+            startInfo.RedirectStandardOutput = true;
+            startInfo.RedirectStandardError = true;
+
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = "";
+
+            Process process = new Process();
+            process.StartInfo = startInfo;
+            process.Start();
+
+            process.StandardInput.WriteLine(@"python C:\Users\Viole\Documents\Magshimim\Project\Synonym\ParseSentence.py -f " + file);
+
         }
     }
 }
