@@ -8,8 +8,9 @@
     var original = document.getElementById("text").value;
 
     var oShell = WScript.CreateObject("WScript.Shell");
-    var ret = oShell.Run('cmd python ../../Synonym/ParseSentence.py ' + original, 1 /* SW_SHOWNORMAL */, true /* bWaitOnReturn */);
+    var ret = oShell.Run('cmd python ../../Run/ParseSentence.py -s "' + original + '"', 1 /* SW_SHOWNORMAL */, true /* bWaitOnReturn */);
     WScript.Echo("ret " + ret);
+	alert(ret);
     document.getElementById("msg").innerHTML = ret;
     return true;
   }
@@ -56,7 +57,7 @@
       <img id="content">
         <img src="UploadFile.png"></img>
 
-      <form form action="" id="re-form" onsubmit="return generate()">
+      <form form action="" id="re-form" onsubmit="generate()">
         <p><span>Text</span><textarea class="contact textarea" id="text" rows="8" cols="50" name="text"></textarea></p>
         <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit"/></p>
       </form>
