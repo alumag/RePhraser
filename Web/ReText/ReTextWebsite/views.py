@@ -4,6 +4,7 @@ from django.template import loader
 from django.template import Context, Template
 from django.core.urlresolvers import resolve
 import os
+from generate import *
 
 def index(request):
     return HttpResponse("Hello, world. You're at the ReText index.")
@@ -13,14 +14,11 @@ def rephrase(request, text=""):
 	text = request.GET.get('text', '')
 	print ("text: "+ text)
 	if text != "":
-		print(os.path.dirname(os.path.realpath(__file__)))
-		file = open((os.path.dirname(os.path.realpath(__file__))+"\templates\ReTextWebsite\rephrase.html"), 'r')
-		newfile = open(os.path.dirname(os.path.realpath(__file__))+"\templates\ReTextWebsite\newRephrase.html", "w")
-		newfile.write(file.read().replace("<ul id=\"msg\"> </ul>", text))
-		newfile.close()
-		file.close()
+		generate(text).create_page()
+		print ("newRephrase sent")
 		template = loader.get_template('ReTextWebsite/newRephrase.html')
 	else:
+		print ("rephrase sent")
 		template = loader.get_template('ReTextWebsite/rephrase.html')
 	return HttpResponse(template.render(context, request))
 	
