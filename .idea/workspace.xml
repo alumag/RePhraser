@@ -2,55 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34aeb603-0fb9-411b-a2a5-d08970947a6e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/db.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/mysite/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/mysite/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/mysite/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/mysite/wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/hey.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/hey.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/hey.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/READ_ME/HTML5WebTemplates.co.uk.url" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/READ_ME/PLEASE READ.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/READ_ME/Remove the footer link.URL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/UploadFile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/generate/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/generate/2 2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/generate/2 3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/generate/2 4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/generate/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/generate/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/generate/4 2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/generate/4 4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/generate/4 4.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/generate/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/generate/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/rephrase.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/style/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/style/bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/style/graphic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/style/link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/style/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/style/pattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/style/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/style/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/templates/polls/simple_light/style/tab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/Server/mysite/polls/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/ReText/ReText/urls.py" afterPath="$PROJECT_DIR$/Web/ReText/ReText/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/models.py" afterPath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/style/style.css" afterPath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/style/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/rephrase.html" afterPath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/rephrase.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/server.py" afterPath="$PROJECT_DIR$/Web/server.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/simple_light/rephrase.html" afterPath="$PROJECT_DIR$/Web/simple_light/rephrase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/urls.py" afterPath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/views.py" afterPath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,8 +38,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Web/ReText/ReTextWebsite/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="436">
+              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -126,6 +84,7 @@
         <option value="$PROJECT_DIR$/Run/synonym.py" />
         <option value="$PROJECT_DIR$/Run/ParseSentence.py" />
         <option value="$PROJECT_DIR$/Run/tmura.py" />
+        <option value="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/rephrase.html" />
         <option value="$PROJECT_DIR$/Web/ReText/ReTextWebsite/views.py" />
       </list>
     </option>
@@ -212,6 +171,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ReText" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReTextWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReText" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReTextWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -503,7 +492,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1647145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -512,7 +501,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19716088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19716088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -552,13 +541,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Texts/new_crisis.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Texts/crisis.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -886,10 +868,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/ReText/ReTextWebsite/views.py">
+    <entry file="file://$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/rephrase.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/ReText/ReTextWebsite/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
