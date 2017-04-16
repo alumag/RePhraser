@@ -16,18 +16,8 @@ def rephrase(request, text=""):
 	if text != "":
 		generate(text).create_page()
 		print ("newRephrase sent")
-		template = loader.get_template('ReTextWebsite/newRephrase.html')
+		template = loader.get_template('ReTextWebsite/newindex.html')
 	else:
 		print ("rephrase sent")
-		template = loader.get_template('ReTextWebsite/rephrase.html')
-	return HttpResponse(template.render(context, request))
-	
-def home(request):
-	context = Context({"my_name": "Lummie"})
-	template = loader.get_template('ReTextWebsite/page.html')
-	return HttpResponse(template.render(context, request))
-	
-def contact(request):
-	context = Context({"my_name": "Lummie"})
-	template = loader.get_template('ReTextWebsite/contact.html')
+		template = loader.get_template('ReTextWebsite/index.html')
 	return HttpResponse(template.render(context, request))

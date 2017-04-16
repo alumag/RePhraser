@@ -13,8 +13,8 @@ class generate(object):
 	def create_page(self):	
 		run_str = "python ../../Run/ParseSentence.py -s \"{0}\" > out.txt"
 		run_str = run_str.replace("{0}", self._sentence)
-		file = open("C:\Users\Viole\Documents\Magshimim\Project\Web\ReText\ReTextWebsite\\templates\ReTextWebsite\\rephrase.html", 'r')
-		newfile = open("C:\Users\Viole\Documents\Magshimim\Project\Web\ReText\ReTextWebsite\\templates\ReTextWebsite\\newRephrase.html", "w")
+		file = open("C:\Users\Viole\Documents\Magshimim\Project\Web\ReText\ReTextWebsite\\templates\ReTextWebsite\\index.html", 'r')
+		newfile = open("C:\Users\Viole\Documents\Magshimim\Project\Web\ReText\ReTextWebsite\\templates\ReTextWebsite\\newindex.html", "w")
 		
 		os.system(run_str)
 		output = open("out.txt", 'r')
@@ -23,7 +23,7 @@ class generate(object):
 		if(self._sentence == None):
 			self._sentence = "Sorry, there is some error :(</br>Please connect Aluma/Arad and tell them it happen. Maybe theyll care.."
 
-		newfile.write(file.read().replace("<ul id=\"msg\"> </ul>", str(self._sentence)))
+		newfile.write(file.read().replace("<textarea name=\"text\" id=\"text\" placeholder=\"Enter your text\" rows=\"6\"></textarea>","<textarea name=\"text\" id=\"text\" placeholder=\"Enter your text\" rows=\"6\">" + str(self._sentence) + "</textarea>"))
 		newfile.close()
 		file.close()
 		output.close()
