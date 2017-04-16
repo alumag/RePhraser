@@ -4,13 +4,7 @@
 {% load static %}
 <script type="text/jscript">
   function generate(str) {
-
-    var original = document.getElementById("text").value;
-
-    var oShell = WScript.CreateObject("WScript.Shell");
-    var ret = oShell.Run('cmd python ../../Synonym/ParseSentence.py ' + original, 1 /* SW_SHOWNORMAL */, true /* bWaitOnReturn */);
-    WScript.Echo("ret " + ret);
-    document.getElementById("msg").innerHTML = ret;
+    document.getElementById("msg").innerHTML = "Wait for proccess...;
     return true;
   }
 </script>

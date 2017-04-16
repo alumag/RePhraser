@@ -88,7 +88,7 @@ def main():
     'a': 'value',
     'another': 'value', }
     print a["a"]
-    sent = "an I ate apple"
+    sent = "We ate an apple"
     print "Your sentence is:        " + sent
     print "The passive sentence is:       " + turn_to_passive(sent)
     text = nltk.tokenize.word_tokenize(sent)
