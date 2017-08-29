@@ -1,13 +1,69 @@
 <!DOCTYPE HTML>
+<!-- Here for some challenge? WRONG PLACE! -->
+<!-- This site is not a part of challenge! Don't hack us :) For any help with challenges DONT contact us. Challenges are only hosting here -->
+<!-- Challenges thingies will found in nested paths. For example: 92.222.22.95/<something that you looking for>. THERE IS NOTHING ON THIS PAGE -->
+<!-- NOTHING HERE. JUST MY PROJECT. KEEP GOOING -->
+<!-- Don't try me. I keep logs. -->
+<!-- SHOO! GO AWAY! -->
 <!--
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-{% load static %}
+
+{% load staticfiles %}
 	<head>
-		<title>ReText</title>
+		<link rel="shortcut icon" type="image/png" href="{% static "ReTextWebsite/favicon.ico"%}"/>
+		<script>
+			function loading() {
+			  document.getElementById("loader").style.display = "";
+			  document.getElementById("myDiv").style.display = "none";
+			}
+			
+			function notloading() {
+			  document.getElementById("loader").style.display = "none";
+			  document.getElementById("myDiv").style.display = "";
+			}
+			
+			function rephrase() {
+			  var xhttp = new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+				  document.getElementById("output").innerHTML =
+				  this.responseText;
+				  notloading()
+				}
+			  };
+			  xhttp.open("GET", "text?text="+encodeURI(document.getElementById("text").value), true);
+			  xhttp.send();
+			  loading()
+			}
+		</script>
+		
+		<style>
+		.loader {
+		  border: 16px solid #f3f3f3;
+		  border-radius: 50%;
+		  border-top: 16px solid #660066;
+		  width: 120px;
+		  height: 120px;
+		  -webkit-animation: spin 2s linear infinite;
+		  animation: spin 2s linear infinite;
+		}
+
+		@-webkit-keyframes spin {
+		  0% { -webkit-transform: rotate(0deg); }
+		  100% { -webkit-transform: rotate(360deg); }
+		}
+
+		@keyframes spin {
+		  0% { transform: rotate(0deg); }
+		  100% { transform: rotate(360deg); }
+		}
+		</style>
+
+		<title>RePhraser</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="{% static "ReTextWebsite/assets/js/ie/html5shiv.js"%}"></script><![endif]-->
@@ -19,15 +75,14 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
+					
 				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="{% static "ReTextWebsite/images/logo.svg"%}" alt="" /></span>
-						<h1>ReText</h1>
-						<p>Simply just rephrase your text<br />
-						<!--built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>-->
+					<header id="header" class="alt"><a href="#intro" class="active">
+						<span class="logo"><img src="{% static "ReTextWebsite/images/logo.png"%}" alt="" /></span>
+						<h1>RePhraser</h1></a>
+						<p>Same same; New text!<br />
 					</header>
-
+				
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
@@ -43,20 +98,22 @@
 
 						<!-- Rephrase Now! -->
 							<section id="intro" class="main">
-								<div class="spotlight">
+								<center><div id="loader" class="loader" style="display:none;"></div></center>
+								<div class="spotlight" id="myDiv">
 									<div class="content">
 										<header class="major">
 											<h2>Rephrase Now!</h2>
 										</header>
 										<p>Just put your text here, And let the magic begin!</p>
-										<form form action="" id="re-form" onsubmit="">
+										<form form action="" method="post" id="re-form" onsubmit="loading()">{% csrf_token %}
 										<div class="12u$">
 											<textarea name="text" id="text" placeholder="Enter your text" rows="6"></textarea>
-										</div></br>
-										<center><input type="submit" value="Do the magic" class="special" /></center>
+											<p id="output"></p>
+										</div></br></br>
+										<center><input type="button"  onclick="rephrase()" value="Do the magic" class="special" /></center>
 										</form>
 									</div>
-									<span class="image"><img src="{% static "ReTextWebsite/images/pic01.jpg"%}" alt="" /></span>
+									<span class="image"><img src="{% static "ReTextWebsite/images/fill.jpg"%}" alt="" /></span>
 								</div>
 							</section>
 
@@ -67,26 +124,21 @@
 								</header>
 								<ul class="features">
 									<li>
-										<span class="icon major style1 fa-code"></span>
+										<span class="image"><img src="{% static "ReTextWebsite/images/lummiIcon.png"%}" alt="" /></span>
 										<h3>Aluma Gelbard</h3>
-										<p>The best person on earth</p>
+										<p>18 YO from Ashdod. Programmer, Cats & Sushi lover.</p>
 									</li>
 									<li>
-										<span class="icon major style3 fa-copy"></span>
+										<span class="image"><img src="{% static "ReTextWebsite/images/aradIcon.png"%}" alt="" /></span>
 										<h3>Arad Kotzer</h3>
-										<p>The best person on earth</p>
+										<p>17 YO from Ashdod. Programmer, Sleeps on the couch every night.</p>
 									</li>
 									<li>
 										<span class="icon major style5 fa-diamond"></span>
 										<h3>Brit Youngman</h3>
-										<p>The best person on earth</p>
+										<p>Our great mentor</p>
 									</li>
 								</ul>
-								<!--<footer class="major">
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>-->
 							</section>
 
 						<!-- How it works? -->
@@ -99,11 +151,11 @@
 								<ul class="statistics">
 									<li class="style1">
 										<span class="icon fa-code-fork"></span>
-										<strong>1</strong> Branch
+										<strong>2</strong> Branch
 									</li>
 									<li class="style2">
 										<span class="icon fa-folder-open-o"></span>
-										<strong>80</strong> MB
+										<strong>90</strong> MB
 									</li>
 									<li class="style3">
 										<span class="icon fa-signal"></span>
@@ -118,10 +170,10 @@
 										<strong>3</strong> Humans
 									</li>
 								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet.</p>
 								<footer class="major">
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn More</a></li>
+										<li><a href="https://github.com/MissLummie/rephrasing" class="button">Learn More</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -130,13 +182,13 @@
 							<section id="cta" class="main special">
 								<header class="major">
 									<h2>Why should you support us?</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<p>Because we are really cool and this project is AMAZING<br />
+									And also because we are the only one who got this algorithm</p>
 								</header>
 								<footer class="major">
 									<ul class="actions">
-										<li><a href="generic.html" class="button special">Support Us Now!</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
+										<li><a href="https://www.patreon.com/RePhraser" class="button special">Support Us Now!</a></li>
+										<li><a href="index.html" class="button">Learn More</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -147,15 +199,15 @@
 					<footer id="footer">
 						<section>
 							<h2>Many thanks to</h2>
-							<p>Magshimim project, Ashdod muni, my parents, my teachers, Shalom, Nadav, our QAs. We appriciate you.</p>
+							<p>Magshimim project, Brit Youngman, Ashdod muni, my parents, my teachers, Nehoray Carmi, Shalom Tzvi Shore, Eyal C and Yotam N, our QAs and even more thanks to everyone who said it's impossible. We appreciate you.</p>
+							<h2>There is something weird with the algorithm?</h2>
+							<p>We will appreciate your honest review, Don't be shy, connect us.</br> <a href="https://github.com/MissLummie/rephrasing/issues">Open an issue</a></p>
 						</section>
 						<section>
 							<h2>Stay in touch</h2>
 							<dl class="alt">
 								<dt>Address</dt>
-								<dd>Bialik 22/23 &bull; Ashdod &bull; Israel</dd>
-								<dt>Phone</dt>
-								<dd>(972) 053-3355067</dd>
+								<dd>Ashdod &bull; Israel</dd>
 								<dt>Email</dt>
 								<dd><a href="#">violetaluma@hotmail.com</a></dd>
 							</dl>
@@ -167,7 +219,7 @@
 								<!--<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>-->
 							</ul>
 						</section>
-						<p class="copyright">&copy; ReText. Design by: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright"><a href="etics" class="active">Privacy</a> &copy; RePhraser. Design by: <a href="https://html5up.net">HTML5 UP</a>. <!--generate time-->. This site is not a part of challenge! Don't hack us :) For any help with challenges use F12</p>
 					</footer>
 
 			</div>
