@@ -1,6 +1,5 @@
 from RePhraser import modifier
 
-from random import randrange
 from nltk import tokenize, tag
 
 modifier_db = modifier.Modifier()
