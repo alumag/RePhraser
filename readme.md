@@ -17,27 +17,7 @@
 - Creating a chrome extension
 
 ### This repository
-- **Texts:**
-All our test-files will be here. Use them to QA our codes :)
-- **Synonym:**
-Will contain all the codes and data about our first sprint.
-  Synonym.py:
-  Synonym class in python. Knows how to take a word (without its role) and give you a nice synonym to :)
-- **Modifier:**
-modifier.py
-- **Fix-Spelling:**
- fix_spelling.py
-- **Active2Passive:**
- active_pasive.py
-- **Run:**
- ParseSentence.py:
-  This script parse texts, select words to change and calls to synonym.py to change them
-- **Web:**
-Contains the GUI
-- **Sandbox:**
-Our playground :P
-	TF-IDF.py: The final tf-idf code.
-	https://en.wikipedia.org/wiki/Tf%E2%80%93idf
-	Takes unlimited amount of Texts files and prints every word tf-idf grade into a log file.
+Works on python 2.7\
+Some features will work on 3.6 as well - synonym and modifier\
       
 **Lummie&Arad, 2017**
