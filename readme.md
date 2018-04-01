@@ -18,6 +18,6 @@
 
 ### This repository
 Works on python 2.7\
-Some features will work on 3.6 as well - synonym and modifier\
+Some features will work on 3.6 as well - synonym and modifier
       
 **Lummie&Arad, 2017**
