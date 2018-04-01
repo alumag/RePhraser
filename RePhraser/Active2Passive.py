@@ -1,6 +1,6 @@
-import en as en
 import string
 
+import en as en
 
 PRP = {
     'I': 'me',
@@ -33,10 +33,12 @@ noun_types = {
     "NN", "PRP", "NNS", "NNP"
 }
 
-def cleanText(sen):
+
+def cleanText(sentence):
     for ch in string.punctuation:
         sen = sen.replace(ch, '')
     return sen
+
 
 def writeToOurCorpus(sentence):
     """
@@ -45,6 +47,7 @@ def writeToOurCorpus(sentence):
     text_file = open("tmura.txt", "a")
     text_file.write(sentence + "\n")
     text_file.close()
+
 
 def get_word_past_participle(word):
     return en.verb.past_participle(word)
@@ -271,7 +274,7 @@ def can_I_convert_frome_active_to_passive(sent):
     for word in en.sentence.tag(sent):
         verbs += (word[1] in verb_types and word[0] not in singular_verbs)
         nouns += (word[1] in noun_types)
-    return (nouns == 2 and verbs == 1)
+    return nouns == 2 and verbs == 1
 
 
 def turn_to_passive(sent):
@@ -286,7 +289,8 @@ def turn_to_passive(sent):
             isFuture = True
         if (word[1] in verb_types and word[0] not in singular_verbs):
             verb = word[0]
-        if word[0] in singular_verbs and (en.verb.tense(word[0]) == "1st singular past" or en.verb.tense(word[0]) == "past plural"):
+        if word[0] in singular_verbs and (
+                en.verb.tense(word[0]) == "1st singular past" or en.verb.tense(word[0]) == "past plural"):
             had_singulat = "past"
         elif word[0] in singular_verbs and en.verb.tense(word[0]) == "infinitive" and isFuture:
             had_singulat = "future"
@@ -310,17 +314,8 @@ def turn_to_passive(sent):
 
     return ""
 
-    
-class Active2Passive(object):
-    def __init__(self, sentence):
-        """
-        :param word: sentence
-        :return: sentence with tmura
-        """
-        self._sentence = sentence
-        return None
-    
-    def change_sentence(self):
-        if can_I_convert_frome_active_to_passive(self._sentence) == True:
-            return turn_to_passive(self._sentence)
-        return self._sentence
+
+def change_sentence(sentence):
+    if can_I_convert_frome_active_to_passive(sentence):
+        return turn_to_passive(sentence)
+    return sentence
