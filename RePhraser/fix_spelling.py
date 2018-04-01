@@ -1,11 +1,7 @@
-import en as en
+from . import en as en
 import string
 
-__author__ = 'User'
 
-
-"""
-"""
 def clean_sent(word):
     word = word.lower()
     for ch in string.punctuation:
@@ -47,7 +43,7 @@ def fix_spelling(sent):
 
 
 def main():
-    print fix_spelling("hello world, I didn't use my computre.")
+    print(fix_spelling("hello world, I didn't use my computre."))
 
 if __name__ == '__main__':
     main()
