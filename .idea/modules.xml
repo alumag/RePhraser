@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Project.iml" filepath="$PROJECT_DIR$/.idea/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RePhraser.iml" filepath="$PROJECT_DIR$/.idea/RePhraser.iml" />
     </modules>
   </component>
 </project>

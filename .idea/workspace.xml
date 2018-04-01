@@ -1,11 +1,460 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34aeb603-0fb9-411b-a2a5-d08970947a6e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Run/Active2Passive.py" afterPath="$PROJECT_DIR$/Run/Active2Passive.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/newRephrase.html" afterPath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/newRephrase.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/rephrase.html" afterPath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/rephrase.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/ReText/out.txt" afterPath="$PROJECT_DIR$/Web/ReText/out.txt" />
+    <list default="true" id="571402ce-0ff9-4dc6-bd2e-883b5ecc89ba" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Project.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Active2Passive/active_pasive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Modifier/modifier.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Modifier/tmura.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/_en-test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/article.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/commonsense.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/numeral.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/ogden/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/ogden/ogden_2000.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/ordinal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/Brill_lexicon" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/Brill_license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/INSTALL.TXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/LICENSE.TXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/chat/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/chat/eliza.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/chat/iesha.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/chat/rude.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/chat/zen.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/cluster/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/cluster/em.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/cluster/gaac.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/cluster/kmeans.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/combined.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/concord.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/featuredemo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/featurelite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/fsa.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/hole.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/kimmo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/lambda.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/marshal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/marshalbrill.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/paradigm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/paradigmquery.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/toolbox/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/toolbox/data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/toolbox/errors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/toolbox/lexicon.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/toolbox/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/toolbox/text.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/toolbox/utilities.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/brown.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/cmudict.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/conll2000.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/genesis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/gutenberg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/ieer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/inaugural.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/names.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/ppattach.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/senseval.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/sinica_treebank.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/state_union.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/stopwords.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/timit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/toolbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/treebank.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/words.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/corpora/ycoe.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/draw/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/draw/cfg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/draw/chart.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/draw/dispersion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/draw/plot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/draw/rdparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/draw/srparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/draw/tree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/etree/ElementInclude.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/etree/ElementPath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/etree/ElementTree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/etree/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/evaluate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/misc/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/misc/sort.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/misc/wordfinder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/model/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/category.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/cfg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/chart.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/chunk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/featurechart.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/featurestructure.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/generate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/grammarfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/pcfg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/pchart.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/rd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/sr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/tree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/treetransforms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/parse/viterbi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/probability.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/semantics/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/semantics/evaluate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/semantics/logic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/semantics/utilities.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/stem/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/stem/porter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/stem/regexp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/tag/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/tag/brill.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/tag/hmm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/tag/ngram.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/tag/unigram.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/test/doctest_driver.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/tokenize/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/tokenize/regexp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/tokenize/simple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/utilities.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/wordnet/concordance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/wordnet/wntools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/wordnet/wordnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/plural.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/quantify.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/rid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/singular.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/spelling/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/spelling/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/verb/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/verb/verb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/concordance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docs/contributors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docs/download.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docs/examples.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docs/installation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docs/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docs/nav.html.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docs/release-notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docs/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docs/styles.css.prefix" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/contributors-src.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/contributors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/download.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/examples.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/format-contributors.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/install.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/license.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/make-css-prefix.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/make-navigation.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/publish.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/release-notes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/requirements.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/schemas.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docsrc/styles.in.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wntools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/COPYING" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/ChangeLog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/INSTALL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/NEWS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/acinclude.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/aclocal.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/compile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/config.h.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/configure" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/configure.ac" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/depcomp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/adj.exc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/adv.exc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/cntlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/cntlist.rev" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/data.adj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/data.adv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/data.noun" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/data.verb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/frames.vrb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/index.adj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/index.adv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/index.noun" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/index.sense" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/index.verb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/lexnames" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/log.grind.2.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/noun.exc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/sentidx.vrb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/sents.vrb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/verb.Framestext" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/dict/verb.exc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/binsrch.3WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/cntlist.5WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/grind.1WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/lexnames.5WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/morph.3WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/morphy.7WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/senseidx.5WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/uniqbeg.7WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wn.1WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wnb.1WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wndb.5WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wngloss.7WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wngroups.7WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wninput.5WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wnintro.1WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wnintro.3WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wnintro.5WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wnintro.7WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wnlicens.7WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wnpkgs.7WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wnsearch.3WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wnstats.7WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/html/wnutil.3WN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/binsrch.3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/cntlist.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/grind.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/lexnames.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/morph.3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/morphy.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/senseidx.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/uniqbeg.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wn.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wnb.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wndb.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wngloss.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wngroups.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wninput.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wnintro.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wnintro.3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wnintro.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wnintro.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wnlicens.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wnpkgs.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wnsearch.3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wnstats.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/man/wnutil.3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/binsrch.3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/cntlist.5.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/grind.1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/lexnames.5.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/morph.3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/morphy.7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/senseidx.5.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/uniqbeg.7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wn.1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wnb.1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wndb.5.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wngloss.7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wngroups.7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wninput.5.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wnintro.1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wnintro.3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wnintro.5.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wnintro.7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wnlicens.7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wnpkgs.7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wnsearch.3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wnstats.7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/pdf/wnutil.3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/binsrch.3.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/cntlist.5.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/grind.1.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/lexnames.5.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/morph.3.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/morphy.7.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/senseidx.5.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/uniqbeg.7.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wn.1.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wnb.1.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wndb.5.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wngloss.7.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wngroups.7.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wninput.5.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wnintro.1.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wnintro.3.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wnintro.5.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wnintro.7.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wnlicens.7.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wnpkgs.7.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wnsearch.3.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wnstats.7.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/doc/ps/wnutil.3.ps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/include/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/include/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/include/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/include/wn.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/include/wngrind.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/install-sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/binsrch.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/morph.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/search.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/wnglobal.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/wnhelp.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/wnres/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/wnres/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/wnres/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/wnres/wn.xbm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/wnres/wnb.man" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/wnres/wngloss.man" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/wnrtl.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/lib/wnutil.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/missing" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/src/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/src/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/src/stubs.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/src/tkAppInit.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/src/wn.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Run/en/wordnet/wordnet2/src/wnb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Synonym/Gibui/synonym.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Synonym/ParseSentence.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Synonym/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Synonym/synonym.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Testing/text3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Texts/text1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Texts/text2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReText/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReText/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReText/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReText/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/generate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/UploadFile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/css/ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/css/ie9.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/css/images/overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/js/ie/PIE.htc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/js/ie/html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/js/ie/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/js/jquery.scrollex.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/js/jquery.scrolly.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/js/skel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/js/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/base/_page.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/base/_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/components/_box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/components/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/components/_features.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/components/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/components/_icon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/components/_image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/components/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/components/_section.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/components/_spotlight.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/components/_statistics.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/components/_table.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/ie8.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/ie9.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/layout/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/layout/_header.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/layout/_main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/layout/_nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/layout/_wrapper.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/libs/_functions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/libs/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/libs/_skel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/libs/_vars.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/assets/sass/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/images/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/images/pic01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/images/pic02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/images/pic03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/images/pic04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/images/pic05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/static/ReTextWebsite/images/pic06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/elements.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/etics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/generic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/newindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/try.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/ReTextWebsite/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web/ReText/out.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Fix-Spelling/fix_spelling.py" afterPath="$PROJECT_DIR$/RePhraser/fix_spelling.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Run/Active2Passive.py" afterPath="$PROJECT_DIR$/RePhraser/Active2Passive.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Run/ParseSentence.py" afterPath="$PROJECT_DIR$/examples/ParseSentence.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/contrib/__init__.py" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Run/en/parser/nltk_lite/wordnet/__init__.py" afterPath="$PROJECT_DIR$/RePhraser/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Run/en/wordnet/docs/contents.html" afterPath="$PROJECT_DIR$/examples/synonym.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Run/synonym.db" afterPath="$PROJECT_DIR$/RePhraser/synonym.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Run/synonym.py" afterPath="$PROJECT_DIR$/RePhraser/synonym.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Run/tmura.py" afterPath="$PROJECT_DIR$/RePhraser/modifier.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sandbox/tf-idf.py" afterPath="$PROJECT_DIR$/sandbox/tf-idf.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sandbox/xhtml.py" afterPath="$PROJECT_DIR$/sandbox/xhtml.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Testing/sentences.txt" afterPath="$PROJECT_DIR$/tests/sentences.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Testing/text1.txt" afterPath="$PROJECT_DIR$/tests/texts/text1.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Testing/text2.txt" afterPath="$PROJECT_DIR$/tests/texts/text2.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Texts/clinton2.txt" afterPath="$PROJECT_DIR$/tests/texts/clinton2.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Texts/crisis.txt" afterPath="$PROJECT_DIR$/tests/texts/crisis.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Texts/dugl210.txt" afterPath="$PROJECT_DIR$/tests/texts/dugl210.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Texts/new_crisis.txt" afterPath="$PROJECT_DIR$/tests/texts/new_crisis.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Texts/new_text1.txt" afterPath="$PROJECT_DIR$/tests/texts/new_text1.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Texts/text1Log.txt" afterPath="$PROJECT_DIR$/tests/texts/text1Log.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Texts/text2Log.txt" afterPath="$PROJECT_DIR$/tests/texts/text2Log.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Texts/text3.txt" afterPath="$PROJECT_DIR$/tests/texts/text3.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Texts/text3Log.txt" afterPath="$PROJECT_DIR$/tests/texts/text3Log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,24 +468,48 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ParseSentence.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Run/ParseSentence.py">
+    <leaf>
+      <file leaf-file-name="synonym.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RePhraser/synonym.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+            <state relative-caret-position="136">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
-                <element signature="e#21#30#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Web/ReText/ReTextWebsite/views.py">
+      <file leaf-file-name="ParseSentence.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/ParseSentence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="380">
+              <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+              <folding>
+                <element signature="e#21#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="synonym.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/synonym.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -47,7 +520,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -56,6 +528,9 @@
     <findStrings>
       <find />
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,24 +538,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Synonym/synonym.py" />
-        <option value="$PROJECT_DIR$/Web/server.py" />
-        <option value="$PROJECT_DIR$/Web/upload.html" />
-        <option value="$PROJECT_DIR$/Web/simple_light/page.html" />
-        <option value="$PROJECT_DIR$/Web/simple_light/contact.html" />
-        <option value="$PROJECT_DIR$/Web/simple_light/rephrase.html" />
-        <option value="$PROJECT_DIR$/Texts/new_crisis.txt" />
-        <option value="$PROJECT_DIR$/Sandbox/xhtml.py" />
-        <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/Sandbox/tf-idf.py" />
-        <option value="$PROJECT_DIR$/Web/Server/server.py" />
-        <option value="$PROJECT_DIR$/Synonym/tmura.py" />
-        <option value="$PROJECT_DIR$/Synonym/ParseSentence.py" />
-        <option value="$PROJECT_DIR$/Run/synonym.py" />
-        <option value="$PROJECT_DIR$/Run/ParseSentence.py" />
         <option value="$PROJECT_DIR$/Run/tmura.py" />
-        <option value="$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/rephrase.html" />
-        <option value="$PROJECT_DIR$/Web/ReText/ReTextWebsite/views.py" />
+        <option value="$PROJECT_DIR$/RePhraser/Active2Passive/active_pasive.py" />
+        <option value="$PROJECT_DIR$/RePhraser/Active2Passive.py" />
+        <option value="$PROJECT_DIR$/RePhraser/synonym.py" />
+        <option value="$PROJECT_DIR$/examples/synonym.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -105,205 +568,104 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="RePhraser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="RePhraser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="RePhraser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="RePhraser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReText" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="RePhraser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="RePhraser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReText" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReTextWebsite" />
+              <option name="myItemId" value="sandbox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="RePhraser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="RePhraser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReText" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReTextWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReTextWebsite" />
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="RePhraser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="RePhraser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Modifier" />
+              <option name="myItemId" value="RePhraser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Viole\Documents\Magshimim\Project\Web\simple_light" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Viole\Documents\Magshimim\Project\Sandbox" />
-      <recent name="C:\Users\Viole\Documents\Magshimim\Project\Testing" />
-      <recent name="C:\Users\Viole\Documents\Magshimim\Project\Web\simple_light" />
+      <recent name="C:\Users\Viole\Documents\RePhraser\RePhraser" />
+      <recent name="C:\Users\Viole\Documents\RePhraser\tests" />
+      <recent name="C:\Users\Viole\Documents\RePhraser" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ParseSentence (1)">
-    <configuration default="false" name="ParseSentence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.synonym">
+    <configuration default="false" name="synonym" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Synonym" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Synonym/ParseSentence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="xhtml" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sandbox" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sandbox/xhtml.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="tf-idf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sandbox" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sandbox/tf-idf.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ParseSentence (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Run" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Run/ParseSentence.py" />
+      <module name="RePhraser" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/synonym.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -319,7 +681,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
+      <module name="RePhraser" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -334,7 +696,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
+      <module name="RePhraser" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -346,7 +708,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
+      <module name="RePhraser" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -365,7 +727,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
+      <module name="RePhraser" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -384,7 +746,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
+      <module name="RePhraser" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -405,7 +767,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
+      <module name="RePhraser" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -427,7 +789,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
+      <module name="RePhraser" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -442,20 +804,12 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ParseSentence" />
-      <item index="1" class="java.lang.String" itemvalue="Python.xhtml" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tf-idf" />
-      <item index="3" class="java.lang.String" itemvalue="Python.run" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ParseSentence (1)" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.synonym" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ParseSentence (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ParseSentence" />
-        <item index="2" class="java.lang.String" itemvalue="Python.run" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf-idf" />
-        <item index="4" class="java.lang.String" itemvalue="Python.xhtml" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.synonym" />
       </list>
     </recent_temporary>
   </component>
@@ -464,11 +818,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="34aeb603-0fb9-411b-a2a5-d08970947a6e" name="Default" comment="" />
-      <created>1484073476781</created>
+      <changelist id="571402ce-0ff9-4dc6-bd2e-883b5ecc89ba" name="Default" comment="" />
+      <created>1522588924858</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1484073476781</updated>
+      <updated>1522588924858</updated>
     </task>
     <servers />
   </component>
@@ -476,43 +830,24 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1647145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19716088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21815519" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -522,311 +857,182 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Texts/crisis.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Synonym/synonym.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Synonym/ParseSentence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Synonym/synonym.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Synonym/ParseSentence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Synonym/synonym.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Synonym/ParseSentence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Synonym/synonym.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Texts/new_text1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/style/logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/style/search.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/style/pattern.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/style/tab.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/style/link.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/style/graphic.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/style/bullet.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/style/back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4590">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/index.html" />
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/examples.html" />
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/another_page.html" />
-    <entry file="file://$PROJECT_DIR$/Web/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="42" column="128" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/simple_light/rephrase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="83" lean-forward="false" selection-start-line="60" selection-start-column="83" selection-end-line="60" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Texts/new_crisis.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/xhtml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Texts/crisis.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Texts/text3Log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Texts/text2Log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Texts/text3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="66" lean-forward="true" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Texts/text2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Texts/text1Log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Testing/text1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Texts/text1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py" />
-    <entry file="file://$PROJECT_DIR$/Web/Server/server.py" />
-    <entry file="file://$PROJECT_DIR$/Modifier/modifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Synonym/synonym.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Synonym/ParseSentence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Synonym/tmura.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="81" column="14" lean-forward="false" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/tf-idf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Run/synonym.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Run/Active2Passive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Run/tmura.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/ReText/ReTextWebsite/apps.py">
+    <entry file="file://$PROJECT_DIR$/Testing/text2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Run/ParseSentence.py">
+    <entry file="file://$PROJECT_DIR$/Testing/text3.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+        <state relative-caret-position="17">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/synonym.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/sentences.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/Synonym/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/Synonym/Gibui/synonym.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/Synonym/Gibui/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/Synonym/synonym.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/Modifier/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/Modifier/modifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/Modifier/tmura.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/modifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding>
-            <element signature="e#21#30#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/ReText/ReTextWebsite/templates/ReTextWebsite/rephrase.html">
+    <entry file="file://$PROJECT_DIR$/RePhraser/Fix-Spelling/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/ReText/ReTextWebsite/views.py">
+    <entry file="file://$PROJECT_DIR$/RePhraser/fix_spelling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/Active2Passive/active_pasive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3468">
+          <caret line="204" column="33" lean-forward="true" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/Active2Passive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RePhraser/synonym.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ParseSentence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+          <folding>
+            <element signature="e#21#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/synonym.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
