@@ -1,12 +1,11 @@
 from . import en as en
 import string
 
+from .utils import no_punctuation
+
 
 def clean_sent(word):
-    word = word.lower()
-    for ch in string.punctuation:
-        word = word.replace(ch, '')
-    return word
+    return no_punctuation(word).lower()
 
 
 def find_right_fix(word):

@@ -6,6 +6,9 @@ import sqlite3
 from lxml import html
 import nltk
 
+from .utils import no_punctuation
+
+
 """
 Dear un-hebrew speakers:
 'Tmura' is 'Grammatical modifier': an element that describes the object in sentence.
@@ -18,18 +21,15 @@ with Tmura: Lummie and Arad study in Magshimim, The national cyber project
 
 
 def cleanText(sen):
-    for ch in string.punctuation:
-        sentence = sentence.replace(ch, '')
-    return sentence
+    return no_punctuation(sen)
 
 
 def writeToOurCorpus(sentence):
     """
     Gets a sentence (that contains a tmura) and writes it into the tmura.txt file, so we will have a corpus
     """
-    text_file = open("tmura.txt", "a")
-    text_file.write(sentence + "\n")
-    text_file.close()
+    with open("tmura.txt", "a") as text_file:
+        text_file.write(sentence + os.linesep)
 
 
 def downloadPage(word):
@@ -48,6 +48,7 @@ def getTmura(word):
     """
         Gets a word, gets its html page in wordnet (using downloadPage(word)), and returns the tmura of the word.
     """
+    # TODO: Use BeautifulSoup instead of this horrible xpath
     tree = downloadPage(word)  # Gets the page data
     words = tree.xpath("//div[@class='form']/ul/li/text()")  # Gets only the text
     theWord = []
